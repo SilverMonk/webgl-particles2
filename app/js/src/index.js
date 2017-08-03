@@ -1,11 +1,9 @@
-
 var helpBox = document.getElementById("help-box");
 
 var showHelpBox = function(show) {
     if (show) {
         helpBox.classList.remove("hidden");
-    }
-    else {
+    } else {
         helpBox.classList.add("hidden");
     }
 };
